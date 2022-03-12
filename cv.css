@@ -1,0 +1,114 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+body{
+  background:#dddf;
+font-family: sans-serif;
+
+}
+
+.container{
+  max-width: 1000px;
+  background:gray;
+  margin:0 auto;
+padding:20px;
+}
+header{
+
+}
+.profile-img{
+  width:130px;
+  height:140px;
+  border:3px solid white;
+  border-radius:50%;
+float:left;
+}
+.profile-img:hover{
+    border:6px solid white;
+    transition:.5s;
+}
+.header-bio{
+  float:left;
+  padding:30px;
+}
+h2{
+  font-size: 30px;
+  color:white;
+}
+h1,h3,h4,h5,h6{
+  color:white;
+
+
+}
+
+.header-contact{
+  float:right;
+  padding:20px;
+}
+.header-contact a{
+  text-decoration: none;
+
+}
+
+.header-contact a:link{
+  color:black;
+}
+.header-contact a:hover{
+  color:white;
+  text-decoration: underline;
+}
+.header-contact a:visited{
+
+}
+.div-clear{
+  clear:both;
+}
+hr{
+  border:solid black 3px;
+  margin:20px auto;
+  border-bottom:none;
+}
+.common{
+  border:solid black 1px;
+  margin:20px auto;
+  border-bottom:none;
+}
+.left-div{
+width:30%;
+float:left;
+}
+.right-div{
+width:70%;
+float:left;
+}
+
+.edu-left-div{
+  width:30%;
+  float:left;
+}
+
+.edu-right-div{
+  width:35%;
+  float:left;
+}
+.edu-right-subdiv{
+  width:35%;
+  float:right;
+}
+.lower-container{
+  background: black;
+padding:10px;
+  text-align:center;
+}
+
+.lower-container a{
+  text-decoration: none;
+
+  color:white;
+
+  padding:5px 10px;
+
+}
